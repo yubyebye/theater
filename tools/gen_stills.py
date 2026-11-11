@@ -4,19 +4,19 @@ import os, random
 
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'assets', 'stills')
 PLAYS = [
-    ('01', '东南大学',   '#c9a05a'),
-    ('02', '南京航空航天大学', '#8fb3cf'),
-    ('03', '南京理工大学', '#cf6a58'),
-    ('04', '河海大学',   '#76a8a0'),
-    ('05', '南京农业大学', '#c8b069'),
+    ('01', '东南大学',   '#9ecbb8'),
+    ('02', '南京航空航天大学', '#93b2c9'),
+    ('03', '南京理工大学', '#cf9573'),
+    ('04', '河海大学',   '#a8c19a'),
+    ('05', '南京农业大学', '#c6b98c'),
 ]
 
 TPL = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="{school}剧照占位图">
   <defs>
     <linearGradient id="bg{n}" x1="0" y1="0" x2="0.8" y2="1">
-      <stop offset="0" stop-color="#261210"/>
-      <stop offset="0.5" stop-color="#170d0c"/>
-      <stop offset="1" stop-color="#0b0707"/>
+      <stop offset="0" stop-color="#123039"/>
+      <stop offset="0.5" stop-color="#0d2126"/>
+      <stop offset="1" stop-color="#081417"/>
     </linearGradient>
     <radialGradient id="spot{n}" cx="0.5" cy="0.02" r="0.78">
       <stop offset="0" stop-color="{acc}" stop-opacity="0.55"/>

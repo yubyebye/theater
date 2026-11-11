@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="河海大学剧照占位图">
   <defs>
     <linearGradient id="bg04" x1="0" y1="0" x2="0.8" y2="1">
-      <stop offset="0" stop-color="#261210"/>
-      <stop offset="0.5" stop-color="#170d0c"/>
-      <stop offset="1" stop-color="#0b0707"/>
+      <stop offset="0" stop-color="#123039"/>
+      <stop offset="0.5" stop-color="#0d2126"/>
+      <stop offset="1" stop-color="#081417"/>
     </linearGradient>
     <radialGradient id="spot04" cx="0.5" cy="0.02" r="0.78">
-      <stop offset="0" stop-color="#76a8a0" stop-opacity="0.55"/>
-      <stop offset="0.42" stop-color="#76a8a0" stop-opacity="0.13"/>
-      <stop offset="1" stop-color="#76a8a0" stop-opacity="0"/>
+      <stop offset="0" stop-color="#a8c19a" stop-opacity="0.55"/>
+      <stop offset="0.42" stop-color="#a8c19a" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#a8c19a" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="cone04" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0.20"/>
@@ -86,16 +86,16 @@
     <path d="M715 0 V500" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1.4"/>
     <path d="M706 0 V500" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1.4"/>
   </g>
-  <path d="M0 434 H800" stroke="#76a8a0" stroke-opacity="0.22"/>
-  <ellipse cx="400" cy="436" rx="252" ry="24" fill="#76a8a0" opacity="0.13"/>
-  <rect x="17" y="17" width="766" height="466" fill="none" stroke="#76a8a0" stroke-opacity="0.30"/>
+  <path d="M0 434 H800" stroke="#a8c19a" stroke-opacity="0.22"/>
+  <ellipse cx="400" cy="436" rx="252" ry="24" fill="#a8c19a" opacity="0.13"/>
+  <rect x="17" y="17" width="766" height="466" fill="none" stroke="#a8c19a" stroke-opacity="0.30"/>
   <rect x="26" y="26" width="748" height="448" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
 
   <text x="744" y="478" text-anchor="end" font-family="Georgia, 'Songti SC', serif" font-size="186" font-weight="700"
-        fill="#76a8a0" fill-opacity="0.12" letter-spacing="-6">04</text>
+        fill="#a8c19a" fill-opacity="0.12" letter-spacing="-6">04</text>
 
   <text x="46" y="446" font-family="'Songti SC', 'SimSun', serif" font-size="17" letter-spacing="6"
-        fill="#76a8a0" fill-opacity="0.82">剧照占位</text>
+        fill="#a8c19a" fill-opacity="0.82">剧照占位</text>
   <text x="46" y="472" font-family="Georgia, 'Songti SC', serif" font-size="10.5" letter-spacing="3.4"
         fill="#ffffff" fill-opacity="0.34">STILL / 04 — 河海大学</text>
 
