@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="南京农业大学剧照占位图">
+  <defs>
+    <linearGradient id="bg05" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#261210"/>
+      <stop offset="0.5" stop-color="#170d0c"/>
+      <stop offset="1" stop-color="#0b0707"/>
+    </linearGradient>
+    <radialGradient id="spot05" cx="0.5" cy="0.02" r="0.78">
+      <stop offset="0" stop-color="#c8b069" stop-opacity="0.55"/>
+      <stop offset="0.42" stop-color="#c8b069" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#c8b069" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cone05" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="0.75" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="veil05" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="0.16" stop-color="#000" stop-opacity="0"/>
+      <stop offset="0.84" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg05)"/>
+  <rect width="800" height="500" fill="url(#spot05)"/>
+  <polygon points="400,-60 656,500 144,500" fill="url(#cone05)"/>
+  <circle cx="446.7" cy="359.0" r="1.6" fill="#ffffff" opacity="0.40"/>
+  <circle cx="491.2" cy="436.6" r="0.6" fill="#ffffff" opacity="0.25"/>
+  <circle cx="568.5" cy="319.1" r="1.8" fill="#ffffff" opacity="0.14"/>
+  <circle cx="388.2" cy="146.0" r="1.3" fill="#ffffff" opacity="0.28"/>
+  <circle cx="215.0" cy="133.2" r="1.0" fill="#ffffff" opacity="0.39"/>
+  <circle cx="501.0" cy="108.6" r="1.6" fill="#ffffff" opacity="0.14"/>
+  <circle cx="444.6" cy="94.5" r="0.6" fill="#ffffff" opacity="0.38"/>
+  <circle cx="289.6" cy="132.7" r="1.9" fill="#ffffff" opacity="0.38"/>
+  <circle cx="319.9" cy="453.4" r="1.3" fill="#ffffff" opacity="0.32"/>
+  <circle cx="287.8" cy="444.6" r="1.5" fill="#ffffff" opacity="0.41"/>
+  <circle cx="549.6" cy="168.5" r="1.1" fill="#ffffff" opacity="0.15"/>
+  <circle cx="265.4" cy="68.0" r="1.0" fill="#ffffff" opacity="0.29"/>
+  <circle cx="211.3" cy="331.5" r="1.0" fill="#ffffff" opacity="0.20"/>
+  <circle cx="521.0" cy="246.7" r="1.0" fill="#ffffff" opacity="0.25"/>
+  <circle cx="477.8" cy="64.5" r="1.9" fill="#ffffff" opacity="0.11"/>
+  <circle cx="494.9" cy="403.3" r="0.6" fill="#ffffff" opacity="0.35"/>
+  <circle cx="349.2" cy="288.8" r="0.6" fill="#ffffff" opacity="0.11"/>
+  <circle cx="278.7" cy="450.7" r="0.9" fill="#ffffff" opacity="0.34"/>
+  <circle cx="563.3" cy="445.1" r="1.0" fill="#ffffff" opacity="0.21"/>
+  <circle cx="409.4" cy="373.5" r="0.7" fill="#ffffff" opacity="0.34"/>
+  <circle cx="512.9" cy="409.7" r="0.6" fill="#ffffff" opacity="0.40"/>
+  <circle cx="244.6" cy="186.5" r="1.4" fill="#ffffff" opacity="0.39"/>
+  <circle cx="339.2" cy="437.4" r="1.3" fill="#ffffff" opacity="0.20"/>
+  <circle cx="330.4" cy="116.3" r="0.7" fill="#ffffff" opacity="0.15"/>
+  <circle cx="471.9" cy="468.6" r="0.8" fill="#ffffff" opacity="0.12"/>
+  <circle cx="584.9" cy="269.4" r="1.1" fill="#ffffff" opacity="0.18"/>
+  <circle cx="435.7" cy="395.3" r="1.2" fill="#ffffff" opacity="0.23"/>
+  <circle cx="231.2" cy="433.9" r="0.6" fill="#ffffff" opacity="0.26"/>
+  <circle cx="528.6" cy="96.1" r="1.6" fill="#ffffff" opacity="0.40"/>
+  <circle cx="449.6" cy="378.8" r="0.7" fill="#ffffff" opacity="0.24"/>
+  <circle cx="266.7" cy="403.2" r="1.0" fill="#ffffff" opacity="0.25"/>
+  <circle cx="589.7" cy="406.5" r="1.9" fill="#ffffff" opacity="0.25"/>
+  <circle cx="395.5" cy="353.7" r="1.2" fill="#ffffff" opacity="0.19"/>
+  <circle cx="363.4" cy="103.0" r="1.1" fill="#ffffff" opacity="0.42"/>
+  <circle cx="574.7" cy="309.6" r="1.2" fill="#ffffff" opacity="0.21"/>
+  <circle cx="243.9" cy="157.1" r="1.6" fill="#ffffff" opacity="0.38"/>
+  <circle cx="347.3" cy="378.0" r="1.6" fill="#ffffff" opacity="0.32"/>
+  <circle cx="462.3" cy="366.6" r="1.1" fill="#ffffff" opacity="0.33"/>
+  <circle cx="316.7" cy="248.8" r="1.6" fill="#ffffff" opacity="0.32"/>
+  <circle cx="321.7" cy="446.6" r="1.4" fill="#ffffff" opacity="0.29"/>
+  <circle cx="214.4" cy="275.2" r="0.9" fill="#ffffff" opacity="0.31"/>
+  <circle cx="385.9" cy="391.2" r="1.4" fill="#ffffff" opacity="0.36"/>
+  <circle cx="342.2" cy="316.9" r="1.6" fill="#ffffff" opacity="0.37"/>
+  <circle cx="343.0" cy="402.4" r="1.7" fill="#ffffff" opacity="0.32"/>
+  <circle cx="580.9" cy="451.3" r="1.3" fill="#ffffff" opacity="0.27"/>
+  <circle cx="273.1" cy="399.7" r="1.8" fill="#ffffff" opacity="0.25"/>
+  <g opacity="0.5">
+    <path d="M49 0 V500" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.4"/>
+    <path d="M58 0 V500" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1.4"/>
+    <path d="M67 0 V500" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1.4"/>
+    <path d="M76 0 V500" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1.4"/>
+    <path d="M85 0 V500" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1.4"/>
+    <path d="M94 0 V500" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1.4"/>
+    <path d="M751 0 V500" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.4"/>
+    <path d="M742 0 V500" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1.4"/>
+    <path d="M733 0 V500" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1.4"/>
+    <path d="M724 0 V500" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1.4"/>
+    <path d="M715 0 V500" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1.4"/>
+    <path d="M706 0 V500" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1.4"/>
+  </g>
+  <path d="M0 434 H800" stroke="#c8b069" stroke-opacity="0.22"/>
+  <ellipse cx="400" cy="436" rx="252" ry="24" fill="#c8b069" opacity="0.13"/>
+  <rect x="17" y="17" width="766" height="466" fill="none" stroke="#c8b069" stroke-opacity="0.30"/>
+  <rect x="26" y="26" width="748" height="448" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+
+  <text x="744" y="478" text-anchor="end" font-family="Georgia, 'Songti SC', serif" font-size="186" font-weight="700"
+        fill="#c8b069" fill-opacity="0.12" letter-spacing="-6">05</text>
+
+  <text x="46" y="446" font-family="'Songti SC', 'SimSun', serif" font-size="17" letter-spacing="6"
+        fill="#c8b069" fill-opacity="0.82">剧照占位</text>
+  <text x="46" y="472" font-family="Georgia, 'Songti SC', serif" font-size="10.5" letter-spacing="3.4"
+        fill="#ffffff" fill-opacity="0.34">STILL / 05 — 南京农业大学</text>
+
+  <rect width="800" height="500" fill="url(#veil05)"/>
+</svg>

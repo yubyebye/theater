@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="南京航空航天大学剧照占位图">
+  <defs>
+    <linearGradient id="bg02" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#261210"/>
+      <stop offset="0.5" stop-color="#170d0c"/>
+      <stop offset="1" stop-color="#0b0707"/>
+    </linearGradient>
+    <radialGradient id="spot02" cx="0.5" cy="0.02" r="0.78">
+      <stop offset="0" stop-color="#8fb3cf" stop-opacity="0.55"/>
+      <stop offset="0.42" stop-color="#8fb3cf" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#8fb3cf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cone02" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="0.75" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="veil02" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="0.16" stop-color="#000" stop-opacity="0"/>
+      <stop offset="0.84" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg02)"/>
+  <rect width="800" height="500" fill="url(#spot02)"/>
+  <polygon points="400,-60 656,500 144,500" fill="url(#cone02)"/>
+  <circle cx="573.3" cy="447.6" r="0.7" fill="#ffffff" opacity="0.13"/>
+  <circle cx="527.5" cy="356.5" r="1.5" fill="#ffffff" opacity="0.20"/>
+  <circle cx="440.3" cy="300.9" r="1.4" fill="#ffffff" opacity="0.15"/>
+  <circle cx="373.7" cy="209.2" r="1.5" fill="#ffffff" opacity="0.42"/>
+  <circle cx="570.8" cy="274.0" r="1.2" fill="#ffffff" opacity="0.19"/>
+  <circle cx="223.7" cy="51.8" r="1.2" fill="#ffffff" opacity="0.20"/>
+  <circle cx="354.4" cy="423.5" r="1.3" fill="#ffffff" opacity="0.28"/>
+  <circle cx="299.7" cy="50.3" r="1.0" fill="#ffffff" opacity="0.14"/>
+  <circle cx="403.9" cy="469.4" r="1.5" fill="#ffffff" opacity="0.16"/>
+  <circle cx="549.6" cy="382.6" r="1.6" fill="#ffffff" opacity="0.39"/>
+  <circle cx="499.9" cy="379.6" r="1.1" fill="#ffffff" opacity="0.41"/>
+  <circle cx="575.5" cy="109.3" r="1.6" fill="#ffffff" opacity="0.33"/>
+  <circle cx="385.3" cy="268.1" r="1.2" fill="#ffffff" opacity="0.40"/>
+  <circle cx="400.3" cy="397.6" r="1.1" fill="#ffffff" opacity="0.38"/>
+  <circle cx="551.9" cy="238.2" r="1.3" fill="#ffffff" opacity="0.39"/>
+  <circle cx="485.0" cy="249.2" r="0.9" fill="#ffffff" opacity="0.20"/>
+  <circle cx="475.8" cy="111.4" r="1.8" fill="#ffffff" opacity="0.19"/>
+  <circle cx="556.3" cy="173.1" r="1.8" fill="#ffffff" opacity="0.33"/>
+  <circle cx="401.6" cy="262.6" r="1.4" fill="#ffffff" opacity="0.29"/>
+  <circle cx="328.5" cy="129.4" r="1.3" fill="#ffffff" opacity="0.40"/>
+  <circle cx="446.8" cy="72.4" r="1.7" fill="#ffffff" opacity="0.33"/>
+  <circle cx="554.9" cy="122.3" r="1.6" fill="#ffffff" opacity="0.12"/>
+  <circle cx="458.1" cy="157.4" r="0.9" fill="#ffffff" opacity="0.38"/>
+  <circle cx="250.4" cy="264.6" r="1.7" fill="#ffffff" opacity="0.18"/>
+  <circle cx="290.0" cy="418.7" r="1.1" fill="#ffffff" opacity="0.33"/>
+  <circle cx="222.1" cy="195.8" r="0.8" fill="#ffffff" opacity="0.32"/>
+  <circle cx="241.5" cy="450.5" r="0.6" fill="#ffffff" opacity="0.33"/>
+  <circle cx="218.0" cy="149.9" r="1.7" fill="#ffffff" opacity="0.15"/>
+  <circle cx="279.8" cy="337.3" r="1.1" fill="#ffffff" opacity="0.11"/>
+  <circle cx="586.2" cy="105.1" r="0.6" fill="#ffffff" opacity="0.21"/>
+  <circle cx="443.8" cy="359.3" r="0.7" fill="#ffffff" opacity="0.21"/>
+  <circle cx="221.7" cy="232.9" r="1.6" fill="#ffffff" opacity="0.34"/>
+  <circle cx="552.8" cy="364.9" r="1.7" fill="#ffffff" opacity="0.33"/>
+  <circle cx="389.7" cy="137.0" r="1.5" fill="#ffffff" opacity="0.20"/>
+  <circle cx="248.8" cy="232.6" r="1.7" fill="#ffffff" opacity="0.14"/>
+  <circle cx="432.3" cy="209.0" r="1.3" fill="#ffffff" opacity="0.15"/>
+  <circle cx="574.7" cy="151.4" r="1.4" fill="#ffffff" opacity="0.23"/>
+  <circle cx="216.9" cy="279.9" r="0.8" fill="#ffffff" opacity="0.12"/>
+  <circle cx="222.8" cy="109.3" r="0.7" fill="#ffffff" opacity="0.30"/>
+  <circle cx="403.1" cy="462.9" r="1.8" fill="#ffffff" opacity="0.42"/>
+  <circle cx="298.3" cy="231.2" r="0.9" fill="#ffffff" opacity="0.29"/>
+  <circle cx="447.2" cy="384.1" r="1.5" fill="#ffffff" opacity="0.18"/>
+  <circle cx="370.7" cy="266.3" r="0.6" fill="#ffffff" opacity="0.11"/>
+  <circle cx="365.3" cy="87.8" r="1.5" fill="#ffffff" opacity="0.18"/>
+  <circle cx="247.9" cy="118.2" r="0.9" fill="#ffffff" opacity="0.17"/>
+  <circle cx="407.9" cy="239.7" r="1.0" fill="#ffffff" opacity="0.31"/>
+  <g opacity="0.5">
+    <path d="M49 0 V500" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.4"/>
+    <path d="M58 0 V500" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1.4"/>
+    <path d="M67 0 V500" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1.4"/>
+    <path d="M76 0 V500" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1.4"/>
+    <path d="M85 0 V500" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1.4"/>
+    <path d="M94 0 V500" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1.4"/>
+    <path d="M751 0 V500" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.4"/>
+    <path d="M742 0 V500" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1.4"/>
+    <path d="M733 0 V500" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1.4"/>
+    <path d="M724 0 V500" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1.4"/>
+    <path d="M715 0 V500" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1.4"/>
+    <path d="M706 0 V500" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1.4"/>
+  </g>
+  <path d="M0 434 H800" stroke="#8fb3cf" stroke-opacity="0.22"/>
+  <ellipse cx="400" cy="436" rx="252" ry="24" fill="#8fb3cf" opacity="0.13"/>
+  <rect x="17" y="17" width="766" height="466" fill="none" stroke="#8fb3cf" stroke-opacity="0.30"/>
+  <rect x="26" y="26" width="748" height="448" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+
+  <text x="744" y="478" text-anchor="end" font-family="Georgia, 'Songti SC', serif" font-size="186" font-weight="700"
+        fill="#8fb3cf" fill-opacity="0.12" letter-spacing="-6">02</text>
+
+  <text x="46" y="446" font-family="'Songti SC', 'SimSun', serif" font-size="17" letter-spacing="6"
+        fill="#8fb3cf" fill-opacity="0.82">剧照占位</text>
+  <text x="46" y="472" font-family="Georgia, 'Songti SC', serif" font-size="10.5" letter-spacing="3.4"
+        fill="#ffffff" fill-opacity="0.34">STILL / 02 — 南京航空航天大学</text>
+
+  <rect width="800" height="500" fill="url(#veil02)"/>
+</svg>
