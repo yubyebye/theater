@@ -46,8 +46,54 @@
   }
   JSD.initReveal = initReveal;
 
+  /* 上半部分固定、导航条切换下半部分面板 */
+  function initTabs() {
+    var tabs = JSD.$$('.tab');
+    var bar = JSD.$('#tabBar');
+    if (!tabs.length || !bar) return;
+
+    var panels = {};
+    tabs.forEach(function (t) {
+      var p = JSD.$('#panel-' + t.dataset.tab);
+      if (p) panels[t.dataset.tab] = p;
+    });
+
+    function activate(name, scroll) {
+      if (!panels[name]) name = Object.keys(panels)[0];
+      tabs.forEach(function (t) {
+        var on = t.dataset.tab === name;
+        t.classList.toggle('is-active', on);
+        t.setAttribute('aria-current', on ? 'true' : 'false');
+      });
+      Object.keys(panels).forEach(function (k) { panels[k].hidden = k !== name; });
+      initReveal(); /* 新面板首次显示时触发滚动显现 */
+      if (scroll && window.scrollY > bar.offsetTop) {
+        bar.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () {
+        var name = t.dataset.tab;
+        if (location.hash !== '#' + name) {
+          location.hash = name; /* 触发 hashchange → activate */
+        } else {
+          activate(name, true);
+        }
+      });
+    });
+
+    window.addEventListener('hashchange', function () {
+      activate(location.hash.replace('#', ''), true);
+    });
+
+    activate((location.hash || '#archive').replace('#', ''), false);
+  }
+  JSD.initTabs = initTabs;
+
   document.addEventListener('DOMContentLoaded', function () {
     initReveal();
+    initTabs();
     var y = JSD.$('#year');
     if (y) y.textContent = new Date().getFullYear();
   });

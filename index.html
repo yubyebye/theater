@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>剧目库 | 江苏省科学家精神戏剧展示</title>
-<meta name="description" content="江苏省科学家精神戏剧展示平台剧目库：东南大学《广厦》、南京航空航天大学《旋翼人生》、南京理工大学《献身》、河海大学《严恺》、南京农业大学《金善宝》。">
+<title>江苏省科学家精神戏剧展示 | 剧目库 · 活动动态 · 关于</title>
+<meta name="description" content="江苏省科学家精神戏剧展示平台：收录江苏高校原创科学家题材剧目，以舞台呈现科学家精神。含剧目库、活动动态与观众评论。">
 <meta name="theme-color" content="#0d2126">
 <meta property="og:type" content="website">
 <meta property="og:title" content="江苏省科学家精神戏剧展示">
@@ -13,56 +13,72 @@
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<a class="skip-link" href="#archive">跳到剧目库</a>
+<a class="skip-link" href="#panel-archive">跳到剧目库</a>
 
 <header class="site-header">
   <div class="top-line"></div>
   <div class="shell nav">
-    <a class="brand" href="index.html" aria-label="江苏省科学家精神戏剧展示，回到剧目库">
+    <a class="brand" href="#archive" aria-label="江苏省科学家精神戏剧展示，回到剧目库">
       <span class="brand-mark" aria-hidden="true"><span>戏</span></span>
       <span class="brand-text">
         <strong>江苏省科学家精神戏剧展示</strong>
         <small>JIANGSU · SCIENCE SPIRIT ON STAGE</small>
       </span>
     </a>
-    <nav class="nav-links" aria-label="主导航">
-      <a href="index.html" aria-current="page">剧目库</a>
-      <a href="news.html">活动动态</a>
-      <a href="about.html">关于</a>
-    </nav>
+    <p class="header-note">剧目档案 · 活动动态 · 观众评论</p>
   </div>
 </header>
 
-<main>
-  <section class="hero">
-    <div class="shell hero-inner">
-      <div class="hero-grid">
-        <div>
-          <p class="eyebrow">SCIENCE SPIRIT ON STAGE · JIANGSU</p>
-          <h1>
-            <span class="line1">江苏省科学家精神</span>
-            <span class="line2"><em>戏剧展示</em></span>
-          </h1>
-          <p class="hero-sub">一方舞台，百年求索。五部江苏高校原创剧目，把论文写在祖国大地上的故事，搬进聚光灯下。</p>
-          <a class="btn-ghost" href="#archive">浏览剧目 <i>→</i></a>
-        </div>
-        <aside class="hero-side">
-          <div class="hero-stats">
-            <div><b>05</b><span>部原创剧目</span></div>
-            <div><b>05</b><span>所江苏高校</span></div>
-            <div><b>70<span class="unit">年</span></b><span>校史里走出的舞台档案</span></div>
-          </div>
-        </aside>
+<!-- ============ 上半部分：总括（不随切换变化） ============ -->
+<section class="hero">
+  <div class="shell hero-inner">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">SCIENCE SPIRIT ON STAGE · JIANGSU</p>
+        <h1>
+          <span class="line1">江苏省科学家精神</span>
+          <span class="line2"><em>戏剧展示</em></span>
+        </h1>
+        <p class="hero-sub">一方舞台，百年求索。江苏高校师生把校史里的名字搬上舞台——从建筑到航空，从水利到农业，每一部剧都是对“科学家精神”的一次具体回答。</p>
       </div>
+      <aside class="hero-side">
+        <div class="hero-stats">
+          <div><b>05</b><span>部原创剧目档案</span></div>
+          <div><b>05</b><span>所江苏高校参与</span></div>
+          <div><b>70<span class="unit">年</span></b><span>校史里走出的舞台故事</span></div>
+        </div>
+      </aside>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="section" id="archive">
+<!-- ============ 导航条：均匀分布，切换下半部分 ============ -->
+<nav class="tab-bar" id="tabBar" aria-label="板块切换">
+  <a class="tab is-active" href="#archive" data-tab="archive" aria-current="true">
+    <span class="tab-no">01</span>
+    <span class="tab-cn">剧目库</span>
+    <span class="tab-en">ARCHIVE</span>
+  </a>
+  <a class="tab" href="#news" data-tab="news" aria-current="false">
+    <span class="tab-no">02</span>
+    <span class="tab-cn">活动动态</span>
+    <span class="tab-en">NEWS</span>
+  </a>
+  <a class="tab" href="#about" data-tab="about" aria-current="false">
+    <span class="tab-no">03</span>
+    <span class="tab-cn">关于</span>
+    <span class="tab-en">ABOUT</span>
+  </a>
+</nav>
+
+<main>
+  <!-- ============ 下半部分：可切换内容区 ============ -->
+  <section class="panel" id="panel-archive">
     <div class="shell">
       <header class="section-head reveal">
         <div class="sec-label"><i>01</i><span>剧目库</span><em>ARCHIVE</em></div>
         <h2>五部剧目，五种科学人生</h2>
-        <p>从建筑到航空，从水利到农业——江苏高校师生把校史里的名字搬上舞台。每一部剧，都是一次对“科学家精神”的具体回答。</p>
+        <p>点开任意一张卡片，查看该剧的故事原型、创排历程与演出档案；也可以直接搜索。</p>
       </header>
 
       <div class="toolbar reveal">
@@ -86,6 +102,57 @@
       </div>
     </div>
   </section>
+
+  <section class="panel" id="panel-news" hidden>
+    <div class="shell">
+      <header class="section-head reveal">
+        <div class="sec-label"><i>02</i><span>活动动态</span><em>NEWS &amp; EVENTS</em></div>
+        <h2>台前幕后的最新消息</h2>
+        <p>展演、入选、巡演、征集——按时间倒序排列。点开评论区，说说你在舞台下听见了什么。</p>
+      </header>
+
+      <ol class="news-list" id="newsList"></ol>
+      <p class="demo-note">※ 以上为示例稿件，正式上线后将接入真实活动信息；评论保存在你的浏览器本地。</p>
+    </div>
+  </section>
+
+  <section class="panel" id="panel-about" hidden>
+    <div class="shell">
+      <header class="section-head reveal">
+        <div class="sec-label"><i>03</i><span>关于</span><em>ABOUT THE ARCHIVE</em></div>
+        <h2>把科学家的故事，交给舞台</h2>
+        <p>一个为江苏高校原创剧目搭建的公益档案柜：为每一台戏留一份可检索的记录，也为每一场演出留一个说话的地方。</p>
+      </header>
+
+      <div class="fact-grid reveal">
+        <div class="fact-card"><b>05</b><span>部剧目档案</span></div>
+        <div class="fact-card"><b>05</b><span>所江苏高校参与</span></div>
+        <div class="fact-card"><b>2018—2025</b><span>首演年份跨度</span></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="reveal">
+          <p>“共和国的脊梁——科学大师名校宣传工程”“科学家故事舞台剧推广行动”开展以来，江苏高校以校园戏剧的方式，把杨廷宝、王适存、祝榆生、严恺、金善宝等科学家的名字，重新带回年轻人的视野。</p>
+          <p>本站为每部剧目建立一份“档案”：剧名、主题、剧情梗概、剧照与创作背景，让没有买到票的人也能读懂这一台戏；同时汇集演出与征集动态，供各高校交流、互相观摩。</p>
+          <p>剧目文字资料来自各高校官网、官方公众号与公开报道。如涉及版权或内容修订，欢迎通过学校宣传部门与我们联系，我们会尽快核对更新。</p>
+          <p>剧目库按月增补，动态随活动发布。欢迎各高校投稿剧照、剧本梗概与演出信息。</p>
+        </div>
+
+        <aside class="about-aside reveal">
+          <h3>首期参与高校</h3>
+          <ul class="school-list">
+            <li>东南大学 <span>《广厦》</span></li>
+            <li>南京航空航天大学 <span>《旋翼人生》</span></li>
+            <li>南京理工大学 <span>《献身》</span></li>
+            <li>河海大学 <span>《严恺》</span></li>
+            <li>南京农业大学 <span>《金善宝》</span></li>
+          </ul>
+          <h3>内容说明</h3>
+          <p style="font-size:13px;color:var(--muted);margin:0;line-height:1.9;">剧照为统一风格的占位图，正式剧照将由各高校提供后替换；动态栏目初期为示例内容；评论仅保存在本机浏览器，不上传服务器。</p>
+        </aside>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer class="site-footer">
@@ -99,7 +166,7 @@
     </div>
     <p>
       剧目资料整理自各高校官网及公开报道，仅供学习交流<br>
-      © <span id="year">2026</span> 江苏省科学家精神戏剧展示 · <a href="about.html">关于本站</a>
+      © <span id="year">2026</span> 江苏省科学家精神戏剧展示
     </p>
   </div>
 </footer>
@@ -125,5 +192,6 @@
 <script src="assets/js/data.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/archive.js"></script>
+<script src="assets/js/news.js"></script>
 </body>
 </html>
